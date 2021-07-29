@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=aZYYoDDmg8M">Chopin Polonaise (A♭ major) Op. 53 - Seong Jin Cho</a></li>
+        <li><a href="https://www.youtube.com/watch?v=o8oyb0fRUas">Chopin Ballade No. 1 (G minor) Op. 23 - Krystian Zimerman</a></li>
+        <li><a href="https://www.youtube.com/watch?v=e7ElSHRfOYU">Chopin Polonaise (F# minor) Op. 44 - Charles Richard-Hamelin</a></li>
+      </ul>
     </div>
   );
 }
